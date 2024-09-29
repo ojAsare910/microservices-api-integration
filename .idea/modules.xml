@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/grpcservice.iml" filepath="$PROJECT_DIR$/grpcservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices-api-integration.iml" filepath="$PROJECT_DIR$/microservices-api-integration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/product/product.iml" filepath="$PROJECT_DIR$/product/product.iml" />
     </modules>
   </component>
 </project>

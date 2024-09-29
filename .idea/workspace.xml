@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="382d14b3-8846-409c-91e5-937ebffb7e44" name="Changes" comment="" />
+    <list default="true" id="382d14b3-8846-409c-91e5-937ebffb7e44" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpcservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grpcservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/product/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,20 +30,105 @@
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2mlEbEjeBpHi7PpYyReQfqFMqry" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.InventoryClient.executor": "Run",
+    "Application.OrderService.executor": "Run",
+    "Maven.api-gateway [clean].executor": "Run",
+    "Maven.api-gateway [package].executor": "Run",
+    "Maven.grpcservice [clean].executor": "Run",
+    "Maven.grpcservice [package].executor": "Run",
+    "Maven.product [clean].executor": "Run",
+    "Maven.product [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.ProductApplication.executor": "Run",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Justice/IdeaProjects/microservices-api-integration/api-gateway",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Justice\IdeaProjects\microservices-api-integration\api-gateway" />
+      <recent name="C:\Users\Justice\IdeaProjects\microservices-api-integration\grpcservice\src\main\resources" />
+      <recent name="C:\Users\Justice\IdeaProjects\microservices-api-integration\api-gateway\src\main\resources" />
+      <recent name="C:\Users\Justice\IdeaProjects\microservices-api-integration\product\src\main\java\com\ojasare\product\dto" />
+      <recent name="C:\Users\Justice\IdeaProjects\microservices-api-integration\product\src\main\java\com\ojasare\product\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ojasare.order.service" />
+      <recent name="com.ojasare.order.client" />
+      <recent name="com.ojasare.product.controller" />
+      <recent name="com.ojasare.product.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.InventoryClient">
+    <configuration name="InventoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ojasare.order.client.InventoryClient" />
+      <module name="grpcservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ojasare.order.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ojasare.order.service.OrderService" />
+      <module name="grpcservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ojasare.order.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ojasare.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ojasare.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InventoryClient" />
+        <item itemvalue="Application.OrderService" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727642833852</updated>
-      <workItem from="1727642834941" duration="1000" />
+      <workItem from="1727642834941" duration="3176000" />
     </task>
     <servers />
   </component>
